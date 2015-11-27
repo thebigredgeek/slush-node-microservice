@@ -1,0 +1,41 @@
+{
+  "name": "slush-node-microservice",
+  "description": "NodeJS microservice with ES2015 (Babel), Docker, and Docker Compose",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thebigredgeek/slush-slush-node-microservice",
+  "author": {
+    "name": "Andrew E. Rhyne",
+    "email": "rhyneandrew@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thebigredgeek/slush-slush-node-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thebigredgeek/slush-slush-node-microservice/issues"
+  },
+  "license": "MIT",
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-conflict": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^0.1.1",
+    "iniparser": "^1.0.5",
+    "inquirer": "^0.8.0",
+    "moment": "^2.10.6",
+    "slush": ">=1.0.0",
+    "underscore.string": "^2.3.3"
+  },
+  "keywords": [
+    "slushgenerator"
+  ]
+}
