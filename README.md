@@ -1,14 +1,14 @@
-# Slush Slush-node-microservice [![Build Status](https://secure.travis-ci.org/thebigredgeek/slush-slush-node-microservice.png?branch=master)](https://travis-ci.org/thebigredgeek/slush-slush-node-microservice) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-node-microservice.png)](http://badges.enytc.com/for/npm/slush-slush-node-microservice)
+# Slush Node Microservice [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-node-microservice.png)](http://badges.enytc.com/for/npm/slush-node-microservice)
 
 > NodeJS microservice with ES2015 (Babel), Docker, and Docker Compose
 
 
 ## Getting Started
 
-Install `slush-slush-node-microservice` globally:
+Install `slush-node-microservice` globally:
 
 ```bash
-$ npm install -g slush-slush-node-microservice
+$ npm install -g slush-node-microservice
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-slush-node-microservice
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-slush-node-microservice
+$ mkdir my-slush-node-microservice
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-slush-node-microservice && slush slush-node-microservice
+$ cd my-slush-node-microservice && slush node-microservice
 ```
 
 ## Getting To Know Slush
@@ -35,12 +35,12 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/thebigredgeek/slush-slush-node-microservice/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/thebigredgeek/slush-node-microservice/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/thebigredgeek/slush-slush-node-microservice/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/thebigredgeek/slush-node-microservice/issues).
 
-## License 
+## License
 
 The MIT License
 
@@ -66,4 +66,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
