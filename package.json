@@ -1,7 +1,7 @@
 {
   "name": "slush-node-microservice",
   "description": "NodeJS microservice with ES2015 (Babel), Docker, and Docker Compose",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/thebigredgeek/slush-slush-node-microservice",
   "author": {
     "name": "Andrew E. Rhyne",
