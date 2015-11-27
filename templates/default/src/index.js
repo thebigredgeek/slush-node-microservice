@@ -4,7 +4,7 @@ var interval = null;
 
 function up () {
   if (!interval) {
-    interval = setInterval(() => log.log('hello world'), 5000);
+    interval = setInterval(() => log('info', 'hello world'), 5000);
   }
 }
 

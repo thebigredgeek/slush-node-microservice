@@ -8,4 +8,4 @@ RUN cd /src; npm install
 
 WORKDIR /src
 
-CMD ["npm", "run", "production"]
+CMD ["npm", "start"]
