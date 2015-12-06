@@ -88,18 +88,21 @@ gulp.task('default', function (done) {
             }
             answers.year = moment().format('YYYY');
             answers.appNameSlug = _.slugify(answers.appName);
-            gulp.src(__dirname + '/templates/default/**')
-                .pipe(template(answers))
-                .pipe(rename(function (file) {
-                    if (file.basename[0] === '_') {
-                        file.basename = '.' + file.basename.slice(1);
-                    }
-                }))
-                .pipe(conflict('./'))
-                .pipe(gulp.dest('./'))
-                .pipe(install())
-                .on('end', function () {
-                    done();
-                });
+            gulp.src([
+              __dirname + '/templates/default/**',
+              __dirname + '/templates/default/.*'
+            ])
+            .pipe(template(answers))
+            .pipe(rename(function (file) {
+                if (file.basename[0] === '_') {
+                    file.basename = '.' + file.basename.slice(1);
+                }
+            }))
+            .pipe(conflict('./'))
+            .pipe(gulp.dest('./'))
+            .pipe(install())
+            .on('end', function () {
+                done();
+            });
         });
 });
