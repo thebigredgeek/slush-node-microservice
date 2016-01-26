@@ -1,6 +1,6 @@
 # Slush Node Microservice [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-node-microservice.png)](http://badges.enytc.com/for/npm/slush-node-microservice)
 
-> NodeJS microservice with ES2015 (Babel), Docker, and Docker Compose
+> NodeJS micro-service with ES6/7 (Babel ES2015 & Stage 1), ESLint, and Docker
 
 
 ## Getting Started
